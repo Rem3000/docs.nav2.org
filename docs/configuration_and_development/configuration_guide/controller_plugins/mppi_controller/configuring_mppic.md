@@ -647,7 +647,7 @@ Type: `int` Default: `1`
 
 Type: `double` Default: `0.5`
 
-:   Distance between robot and goal above which the critic is considered, so that the final approach into the goal is left to the goal critics.
+:   Distance (m) between robot and goal to **stop** considering axis alignment and allow goal critics to take over.
 
 ### **`normalize`**
 
